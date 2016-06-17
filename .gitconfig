@@ -1,0 +1,16 @@
+[user]
+	name = robotmayo
+	email = robotmayo@gmail.com
+
+[core]
+	editor = vim
+
+[color]
+	ui = true
+	branch = auto
+	diff = auto
+	status = auto
+	showbranch = auto
+
+[diff]
+	tool = vimdiff

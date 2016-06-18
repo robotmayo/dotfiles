@@ -20,3 +20,4 @@ for f in $HOME/dotfiles/.*
 
   ln -sf $f $HOME;
 done;
+mkdir $HOME/dotfiles/.vim/undo $HOME/dotfiles/.vim/backup

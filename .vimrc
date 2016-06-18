@@ -19,7 +19,9 @@ set undofile
 set undodir=$HOME/.vim/undo
 set undolevels=1000
 set undoreload=5000
+set tabstop=4
 set shiftwidth=2
+set softtabstop=2
 set expandtab
 set backspace=indent,eol,start
 "I GOT THE FUCKING SPACE FOR IT

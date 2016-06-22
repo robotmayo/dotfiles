@@ -36,9 +36,13 @@ set incsearch
 nnoremap <left> :bp<cr>
 nnoremap <right> :bn<cr>
 nmap <leader>T :enew<cr>
+nnoremap <C-e> :Explore<cr>
 "CMPLETE THIS
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 "PLUGINS BOYS
+"Fucking conceal nonsense
+set cole=1
+let g:javascript_conceal = 1
 let g:javascript_conceal_function="ƒ"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'molokai'

@@ -7,8 +7,10 @@ set lazyredraw
 set background=dark
 set autoindent
 set encoding=utf8
-set backupdir=$HOME/.vim/backup
+set backupdir=$HOME/.vim/backup//
+set directory=$HOME/.vim/swap//
 set number
+set relativenumber
 set wildmenu
 set wildmode=full
 "space and memory is cheap and abundant
@@ -18,7 +20,7 @@ set hlsearch
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 "undo between buffers
 set undofile
-set undodir=$HOME/.vim/undo
+set undodir=$HOME/.vim/undo//
 set undolevels=1000
 set undoreload=5000
 set tabstop=4

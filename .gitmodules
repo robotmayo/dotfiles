@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-airline-themes"]
 	path = .vim/bundle/vim-airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule ".vim/bundle/vim-jsdoc"]
+	path = .vim/bundle/vim-jsdoc
+	url = git@github.com:heavenshell/vim-jsdoc.git

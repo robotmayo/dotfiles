@@ -32,7 +32,7 @@ set backspace=indent,eol,start
 set laststatus=2
 let g:airline_powerline_fonts = 1
 "I GOT THE FUCKING SPACE FOR IT
-set colorcolumn=120
+set colorcolumn=80
 set incsearch
 "FUCK BUFFERS
 nnoremap <left> :bp<cr>
@@ -42,6 +42,9 @@ nnoremap <C-e> :Explore<cr>
 "CMPLETE THIS
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 "PLUGINS BOYS
+"jsDoc
+nmap <silent> <C-l> <Plug>(jsdoc)
+let g:jsdoc_allow_input_prompt = 1
 "Fucking conceal nonsense
 set cole=1
 let g:javascript_conceal = 1

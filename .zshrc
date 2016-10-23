@@ -57,10 +57,16 @@ plugins=(git go)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+export DEV="$HOME/dev"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 export PATH="$PATH:/usr/local/go/bin"
-export GOPATH="$HOME/go-work"
+export PATH="$PATH:/opt/webstorm/bin"
+export GOROOT="/usr/local/go/"
+export PATH="$PATH:$GOOROOT/bin"
+#GOROOT got fucked at somepoint so I need to force it
+export GOPATH="$DEV/golang"
+export PATH="$PATH:$GOPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -88,3 +94,4 @@ export GOPATH="$HOME/go-work"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias fuck="sudo"
 alias reshell="source $HOME/.zshrc"
+alias update-submodules="git submodule update --recursive --remote"

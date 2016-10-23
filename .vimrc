@@ -10,7 +10,7 @@ set encoding=utf8
 set backupdir=$HOME/.vim/backup//
 set directory=$HOME/.vim/swap//
 set number
-set relativenumber
+"set relativenumber
 set wildmenu
 set wildmode=full
 "space and memory is cheap and abundant

@@ -32,7 +32,7 @@ set backspace=indent,eol,start
 set laststatus=2
 let g:airline_powerline_fonts = 1
 "I GOT THE FUCKING SPACE FOR IT
-set colorcolumn=80
+set colorcolumn=120
 set incsearch
 "FUCK BUFFERS
 nnoremap <left> :bp<cr>
